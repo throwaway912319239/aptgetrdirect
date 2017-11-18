@@ -18,10 +18,10 @@ Tests of the SHA-256 hashes from the redirected data match with the files receiv
 The redirect servers are running on Cox Cable IPs in the 68.106.66.0/24 address range and there doesn't appear to be any DNS records attached to the IP addresses. 
 
 See: redirector.txt for a more detailed explanation of the behavious of the redirection servers and list of IP addresses (110 total)
+
 See: curl.txt for logs curl/wget logs showing expected, redirected, and double redirected transactions.
 
-
-ERRATA:
+ERRATA: 
 Redirection only seems to occur when resolving the ubuntu servers by name -- direct connection using IP addresses do not seem to be affected.
 
 
