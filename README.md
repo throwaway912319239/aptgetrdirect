@@ -1,6 +1,6 @@
 I've been observing unusual behavior from the ubuntu repository archives (*.archive.ubuntu.com). The requests being made for package downloads are getting redirected to IP addresses not obviously associated with Cononical. The redirection occurs randomly, but is very reproducible and occurs regardless of software or user-agent -- tested using apt-get, curl, wget, and web browser. 
 
-So far I've tested this behaviour against the following domains, with decreasing reproducibilty :
+So far I've tested this behaviour against the following domains, with decreasing reproducibilty:
     archive.ubuntu.com
     us.archive.ubuntu.com
     uk.archive.ubuntu.com
@@ -14,6 +14,13 @@ I've included two packet capture logs showing both the expected behavior and the
 
 Tests of the SHA-256 hashes from the redirected data match with the files received directly from us.archive.ubuntu.com and pass key-ring signing checks -- ie: apt-get will install the packages without any warnings.
 
-The redirect servers are running on Cox Cable IPs in the 68.106.66.0/24 address range and there doesn't appear to be any DNS records attached to the IP addresses. See: redirector.txt for a more detailed explanation and list of IP addresses
+The redirect servers are running on Cox Cable IPs in the 68.106.66.0/24 address range and there doesn't appear to be any DNS records attached to the IP addresses. 
+
+See: redirector.txt for a more detailed explanation of the behavious of the redirection servers and list of IP addresses (110 total)
+See: curl.txt for logs curl/wget logs showing expected, redirected, and double redirected transactions.
+
+
+ERRATA:
+Redirection only seems to occur when resolving the ubuntu servers by name -- direct connection using IP addresses do not seem to be affected.
 
 
