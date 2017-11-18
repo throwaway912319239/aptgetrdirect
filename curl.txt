@@ -54,7 +54,7 @@
 
 ## DOUBLE REDIRECTION
 ## -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-wget http://68.106.66.104:80/data/03b87bebe87fd450/us.archive.ubuntu.com/ubuntu/pool/main/r/resolvconf/resolvconf_1.78ubuntu5_all.deb
+## $ wget http://68.106.66.104:80/data/03b87bebe87fd450/us.archive.ubuntu.com/ubuntu/pool/main/r/resolvconf/resolvconf_1.78ubuntu5_all.deb
 --2017-11-17 17:47:28--  http://68.106.66.104/data/03b87bebe87fd450/us.archive.ubuntu.com/ubuntu/pool/main/r/resolvconf/resolvconf_1.78ubuntu5_all.deb
 Connecting to 68.106.66.104:80... connected.
 HTTP request sent, awaiting response... 302 Found
