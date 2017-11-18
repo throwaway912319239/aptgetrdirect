@@ -25,6 +25,7 @@ ERRATA:
 Redirection only seems to occur when resolving the ubuntu servers by name -- direct connections using the IP address do not seem to be effected.
 
 STEPS FOR REPRODUCING:
+
     # run the following command multiple times and look for a 302 response
     wget http://us.archive.ubuntu.com/ubuntu/pool/main/r/resolvconf/resolvconf_1.78ubuntu5_all.deb
 
