@@ -19,9 +19,9 @@ The redirect servers are running on Cox Cable IPs in the 68.106.66.0/24 address 
 
 See: redirector.txt for a more detailed explanation of the behavious of the redirection servers and list of IP addresses (110 total)
 
-See: curl.txt for logs curl/wget logs showing expected, redirected, and double redirected transactions.
+See: curl.txt for curl/wget logs showing expected, redirected, and double redirected transactions.
 
 ERRATA: 
-Redirection only seems to occur when resolving the ubuntu servers by name -- direct connection using IP addresses do not seem to be affected.
+Redirection only seems to occur when resolving the ubuntu servers by name -- direct connections using the IP address do not seem to be affected.
 
 
