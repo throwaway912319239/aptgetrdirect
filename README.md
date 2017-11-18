@@ -22,7 +22,7 @@ See: redirector.txt for a more detailed explanation of the behaviour of the redi
 See: curl.txt for curl/wget logs showing expected, redirected, and double redirected transactions.
 
 ERRATA: 
-Redirection only seems to occur when resolving the ubuntu servers by name -- direct connections using the IP address do not seem to be affected.
+Redirection only seems to occur when resolving the ubuntu servers by name -- direct connections using the IP address do not seem to be effected.
 
 STEPS FOR REPRODUCING:
     # run the following command multiple times and look for a 302 response
